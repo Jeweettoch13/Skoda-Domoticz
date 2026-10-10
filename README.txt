@@ -14,3 +14,17 @@ How It Works & Limits
 • Authentication: Generate an access token directly inside version 8.16 (or newer) of the MyŠkoda app.
 • Cost: Free to use (no credit card or NDA required).
 • Limits: Maximum of 5 API keys per vehicle, with a rate limit of 20 requests per hour per vehicle.
+
+
+
+Step 1: Generate your API Key
+
+1. Open the MyŠkoda App on your smartphone (ensure you are on version 8.16 or newer).
+2. Navigate to your Account Settings / Profile.
+3. Look for the Developer / Public API section.
+4. Generate a new token. Note down the API Key (passed via headers) and check its expiration date.
+5. Grab your vehicle's VIN (Vehicle Identification Number) from the app or your car's windshield.
+
+Step 2: Fill in the forms of API and VIN in the Domoticz plugin.
+
+Step 3: Sensors are made trough devices.
